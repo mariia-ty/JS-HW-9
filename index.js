@@ -59,7 +59,7 @@ console.log(formatString(phrase));
 //Завдання 5
 
 function checkForSpam(message) {
-    if (message.includes("Spam") || message.includes("spam")) {
+    if (message.includes("spam") || message.includes("sale")) {
         return true; 
     }
     else {
@@ -67,7 +67,7 @@ function checkForSpam(message) {
     }
 }
 
-let checkMS = "Here is a Sale (spam)"; 
+let checkMS = "Here is a sale"; 
 console.log(checkForSpam(checkMS));
 
 //Завдання 6
